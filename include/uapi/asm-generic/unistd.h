@@ -698,7 +698,7 @@ __SYSCALL(__NR_finit_module, sys_finit_module)
 __SYSCALL(__NR_sched_setattr, sys_sched_setattr)
  * #define __NR_sched_getattr 275
 __SYSCALL(__NR_sched_getattr, sys_sched_getattr)
-/* Backporting seccomp, stub out renameat2 */
+* Backporting seccomp, stub out renameat2 */
 #define __NR_renameat2 276
 __SYSCALL(__NR_renameat2, sys_renameat2)
 #define __NR_seccomp 277
